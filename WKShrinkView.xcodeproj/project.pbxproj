@@ -14,6 +14,7 @@
 		220A80271A7CC19B00B03FF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220A80261A7CC19B00B03FF6 /* Images.xcassets */; };
 		220A802A1A7CC19B00B03FF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220A80281A7CC19B00B03FF6 /* LaunchScreen.xib */; };
 		220A80361A7CC19B00B03FF6 /* WKShrinkViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A80351A7CC19B00B03FF6 /* WKShrinkViewTests.m */; };
+		220A80411A7CC2FF00B03FF6 /* WKShrinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A80401A7CC2FF00B03FF6 /* WKShrinkView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		220A802F1A7CC19B00B03FF6 /* WKShrinkViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKShrinkViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		220A80341A7CC19B00B03FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220A80351A7CC19B00B03FF6 /* WKShrinkViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKShrinkViewTests.m; sourceTree = "<group>"; };
+		220A803F1A7CC2FF00B03FF6 /* WKShrinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKShrinkView.h; path = WKShrinkView/WKShrinkView.h; sourceTree = "<group>"; };
+		220A80401A7CC2FF00B03FF6 /* WKShrinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKShrinkView.m; path = WKShrinkView/WKShrinkView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		220A80181A7CC19B00B03FF6 /* WKShrinkView */ = {
 			isa = PBXGroup;
 			children = (
+				220A80421A7CC30600B03FF6 /* WKShrinkView */,
 				220A801D1A7CC19B00B03FF6 /* AppDelegate.h */,
 				220A801E1A7CC19B00B03FF6 /* AppDelegate.m */,
 				220A80201A7CC19B00B03FF6 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				220A80341A7CC19B00B03FF6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220A80421A7CC30600B03FF6 /* WKShrinkView */ = {
+			isa = PBXGroup;
+			children = (
+				220A803F1A7CC2FF00B03FF6 /* WKShrinkView.h */,
+				220A80401A7CC2FF00B03FF6 /* WKShrinkView.m */,
+			);
+			name = WKShrinkView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220A80221A7CC19B00B03FF6 /* ViewController.m in Sources */,
+				220A80411A7CC2FF00B03FF6 /* WKShrinkView.m in Sources */,
 				220A801F1A7CC19B00B03FF6 /* AppDelegate.m in Sources */,
 				220A801C1A7CC19B00B03FF6 /* main.m in Sources */,
 			);
